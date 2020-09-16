@@ -227,7 +227,6 @@ def _create_tf_record_from_coco_annotations(  # pylint: disable=invalid-name, to
 
     total_num_annotations_skipped = 0
     for idx, image in enumerate(images):
-      print(image)
       if idx % 100 == 0:
         tf.logging.info('On image %d of %d', idx, len(images))
       annotations_list = annotations_index[image['id']]
