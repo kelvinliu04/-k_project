@@ -101,7 +101,7 @@ def create_tf_example(image,  # pylint: disable=invalid-name, too-many-locals
   """
   image_height = image['height']
   image_width = image['width']
-  filename = os.path.basename(image['image'])
+  filename = os.path.basename(image['file_name'])
   image_id = image['id']
 
   full_path = os.path.join(image_dir, filename)
@@ -227,6 +227,7 @@ def _create_tf_record_from_coco_annotations(  # pylint: disable=invalid-name, to
 
     total_num_annotations_skipped = 0
     for idx, image in enumerate(images):
+      print(image)
       if idx % 100 == 0:
         tf.logging.info('On image %d of %d', idx, len(images))
       annotations_list = annotations_index[image['id']]
