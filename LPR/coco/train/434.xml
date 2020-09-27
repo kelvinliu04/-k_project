@@ -1,0 +1,38 @@
+<annotation>
+	<folder>raw</folder>
+	<filename>434.jpg</filename>
+	<path>D:\Source Code\Python\dataset\data\raw\434.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>405</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>motorbike</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>219</xmin>
+			<ymin>49</ymin>
+			<xmax>358</xmax>
+			<ymax>245</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>motorbike</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>409</xmin>
+			<ymin>201</ymin>
+			<xmax>576</xmax>
+			<ymax>405</ymax>
+		</bndbox>
+	</object>
+</annotation>

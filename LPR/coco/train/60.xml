@@ -1,0 +1,26 @@
+<annotation>
+	<folder>foto</folder>
+	<filename>60.jpg</filename>
+	<path>D:\Source Code\Python\dataset\foto\60.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>854</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>559</xmin>
+			<ymin>185</ymin>
+			<xmax>782</xmax>
+			<ymax>321</ymax>
+		</bndbox>
+	</object>
+</annotation>

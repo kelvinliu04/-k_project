@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train</folder>
+	<filename>162.jpg</filename>
+	<path>D:\Source Code\Python\dataset\data\raw\train\162.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>422</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>motorbike</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>39</xmin>
+			<ymin>31</ymin>
+			<xmax>130</xmax>
+			<ymax>211</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>146</xmin>
+			<ymin>138</ymin>
+			<xmax>485</xmax>
+			<ymax>400</ymax>
+		</bndbox>
+	</object>
+</annotation>

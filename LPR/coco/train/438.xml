@@ -1,0 +1,26 @@
+<annotation>
+	<folder>raw</folder>
+	<filename>438.jpg</filename>
+	<path>D:\Source Code\Python\dataset\data\raw\438.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>675</width>
+		<height>422</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>motorbike</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>328</xmin>
+			<ymin>23</ymin>
+			<xmax>390</xmax>
+			<ymax>170</ymax>
+		</bndbox>
+	</object>
+</annotation>
